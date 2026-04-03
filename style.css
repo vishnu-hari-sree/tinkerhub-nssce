@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 15px;
+  background: #fff;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#6C63FF, #4D9FFF);
+  color: white;
+}
