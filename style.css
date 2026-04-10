@@ -17,3 +17,17 @@ header {
   background: linear-gradient(#6C63FF, #4D9FFF);
   color: white;
 }
+
+section {
+  padding: 80px;
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
