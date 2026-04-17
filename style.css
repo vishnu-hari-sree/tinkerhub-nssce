@@ -31,3 +31,20 @@ section {
 .fade-in.show {
   opacity: 1;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
